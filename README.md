@@ -10,5 +10,4 @@ This is not user friendly in anyway, and it's intended for my own personal use o
 
 Theoretically, when used with a heatsink, this module can output one amps of five volts, so 5W total. The regulator is capable of one and a half amps but the rectifying diode is rated for 1 amp, so this is the limit.
 
-The max input voltage is 35V, but because of the TVS diode (which breaks down at 29.2V), the max should be 25V to stay clear from that.
 
