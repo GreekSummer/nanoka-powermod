@@ -205,4 +205,15 @@
 		(uuid "1bbd3653-6e11-47dd-9bd3-516d745d6760")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/assets/3d_models/DDA0008E.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

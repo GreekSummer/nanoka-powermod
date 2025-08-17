@@ -2492,7 +2492,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "75e1d878-515e-4754-bf4f-e33f691399aa")
+			(uuid "528ce78a-947e-4f63-9af7-784d4546ed93")
 		)
 		(fp_line
 			(start -0.904034 -2.45)
@@ -2502,7 +2502,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0bf20d3b-2022-4382-bf29-cfcdad93d676")
+			(uuid "e570c6b2-6687-47fd-8fc3-e7a89cc46381")
 		)
 		(fp_circle
 			(center -4.003101 -1.905)
@@ -2513,7 +2513,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "5e271cad-1c37-4c10-8e4a-ae637c3eee2d")
+			(uuid "bd3a4ae7-d51b-416a-9ad7-4ba462da95bb")
 		)
 		(fp_poly
 			(pts
@@ -2525,7 +2525,7 @@
 			)
 			(fill yes)
 			(layer "F.Paste")
-			(uuid "a5c82319-7974-4640-9da6-3c99481e3020")
+			(uuid "e483b63d-7874-427a-88d3-b7ecace37ec6")
 		)
 		(fp_line
 			(start -1.950001 2.45)
@@ -2535,7 +2535,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b0699d10-e421-49be-8e2f-1202bf541b85")
+			(uuid "5c5092e9-26cc-4d6e-9d93-edc32c0c918a")
 		)
 		(fp_line
 			(start -1.950001 2.45)
@@ -2545,7 +2545,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "eb65fbda-78c0-428b-a383-725e8675553e")
+			(uuid "4df270c0-4e61-4ca6-aaaa-7549aa97476a")
 		)
 		(fp_line
 			(start 1.950001 2.45)
@@ -2555,7 +2555,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c90c4635-32a6-49bd-86c5-6db586875fc5")
+			(uuid "dd537c65-3888-429a-9d55-a91edcf794d2")
 		)
 		(fp_line
 			(start -1.950001 -2.45)
@@ -2565,7 +2565,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a4767d9f-10bb-4c65-b9d3-fa7e4c8e52d8")
+			(uuid "29030ed1-4338-4fd1-bed1-2dea7cab018c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 270)
@@ -2661,6 +2661,17 @@
 			(uuid "eb5f1422-8e31-4192-8e29-795f3855665f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/assets/3d_models/DDA0008E.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(gr_poly
 		(pts
@@ -2697,7 +2708,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Nanoka DC-DC Module\nInput: 6v min, 40v max\nOutput: 5v @ 500mah max"
+	(gr_text "Nanoka DC-DC Module\nInput: 6v min, 40v max\nOutput: 5v @ 500mA max"
 		(at 127 92.5 0)
 		(layer "B.SilkS")
 		(uuid "6aac70e0-7854-4b54-9f90-45ddd4ea58d1")
@@ -2987,14 +2998,6 @@
 		(layer "F.Cu")
 		(net 7)
 		(uuid "2283dca5-f0bf-430f-b811-65e92a559b04")
-	)
-	(segment
-		(start 129.5 87.1125)
-		(end 129.05 86.6625)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "3315a823-1700-415b-ad4e-3af8080dc893")
 	)
 	(segment
 		(start 127.5 89.05)
