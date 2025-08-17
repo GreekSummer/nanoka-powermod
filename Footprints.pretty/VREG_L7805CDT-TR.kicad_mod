@@ -1,0 +1,197 @@
+(footprint "VREG_L7805CDT-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.93 0)
+		(layer "F.SilkS")
+		(uuid "7f14dc60-aeb8-4401-b03e-4ca41f82bde4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L7805"
+		(at 6.81 7.215 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f3b0cac-53eb-4ed4-bb74-f0f382e46926")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "584f3b79-83aa-4884-9c14-612d7db610b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ddb86d0-c58b-448c-8988-f02bf6f6f5a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -4.27)
+		(end -3.3 1.93)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e49ce4a-a78a-4a69-b28e-39d38891f862")
+	)
+	(fp_line
+		(start -3.3 1.93)
+		(end 3.3 1.93)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e30e944-2646-49be-b64b-fef18b7578f9")
+	)
+	(fp_line
+		(start 3.3 1.93)
+		(end 3.3 -4.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c0a49c8-f890-4c9c-ac20-d844644aa9fe")
+	)
+	(fp_line
+		(start -3.55 -5.65)
+		(end -3.55 5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e1d18fa-712c-4b10-94d2-b8a7b7611e52")
+	)
+	(fp_line
+		(start -3.55 5.65)
+		(end 3.55 5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "362e64ad-345c-46fd-8d91-98427e7c4eda")
+	)
+	(fp_line
+		(start 3.55 -5.65)
+		(end -3.55 -5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba9fe16e-600c-4016-8f71-a6ca2c9772a2")
+	)
+	(fp_line
+		(start 3.55 5.65)
+		(end 3.55 -5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1e38b41-d68c-4ed2-80cd-b7fdefd2699c")
+	)
+	(fp_line
+		(start -3.3 -4.27)
+		(end 3.3 -4.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbed0774-3173-488e-b461-62d13a8ce520")
+	)
+	(fp_line
+		(start -3.3 1.93)
+		(end -3.3 -4.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98305962-1975-4a96-92e8-c0d6a1d528f9")
+	)
+	(fp_line
+		(start 3.3 -4.27)
+		(end 3.3 1.93)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57fc35a2-9716-4ed3-9559-d055d226608d")
+	)
+	(fp_line
+		(start 3.3 1.93)
+		(end -3.3 1.93)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6320722d-bfdc-4e2c-bfe3-baede88566f5")
+	)
+	(pad "1" smd rect
+		(at -2.28 4.2)
+		(size 0.98 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "60665e38-681a-46ba-8388-0e5162871cc4")
+	)
+	(pad "2" smd rect
+		(at 2.28 4.2)
+		(size 0.98 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d9e41836-ea3a-4d8f-a6fb-bddea2b55fbf")
+	)
+	(pad "3" smd rect
+		(at 0 -2.47)
+		(size 5.86 5.57)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "883593fa-7f92-42aa-bc8f-cd87abb06756")
+	)
+	(embedded_fonts no)
+	(model "/home/miohatsume/Documents/KiCad Custom Libraries/3D Models/L7805CDT-TR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

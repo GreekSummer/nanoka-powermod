@@ -2123,7 +2123,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f7a0391a-0e1a-46a8-8840-8d5de249d57f")
 	)
-	(gr_text "Nanoka DC-DC Module\nInput: 6v min, 25v max\nOutput: 5v @ 1A max "
+	(gr_text "Nanoka DC-DC Module\nInput: 6v min, 30v max\nOutput: 5v @ 1A max "
 		(at 127.35 98.225 0)
 		(layer "B.SilkS")
 		(uuid "6aac70e0-7854-4b54-9f90-45ddd4ea58d1")
