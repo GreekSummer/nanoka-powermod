@@ -2,12 +2,11 @@
 
 ![KiCad 3D render](assets/3d-render.png)
 
-This is a power module designed for Project Nanoka. It's based on a Low-Dropout 5V regulator because of its noise-filtering properties, which is important for audio.
+This was the first version of Nanoka's power module that adapts 6V-30V to 5V, which the board needs to work. It's based on a simple low-dropout regulator. These resisitive-type regulators don't do switching to step down voltage so they're relatively noise free, which is important for audio circuits. They also have noise filtering properties. 
 
-It has a very basic circuit. A simple tantalum filtering capacitor, a TVS diode for clamping voltage spikes, a regular rectifying diode for backflow protection, a buffer capacitor at the output, and of course, the regulator itself.
+Initially, this was intended to go inside a car (hence the TVS diode) but I soon realized that it's a horrible idea to fit this in a car. It will probably work until a load dump spike kills it. 
 
-This is not user friendly in anyway, and it's intended for my own personal use only. If you do decide to reproduce it, you do so **at your own responsibility**.
+Outside of automotive applications however, this is suitable, and it allows you to power the Nanoka audio board from a wide range of DC power supplies. 
 
-Theoretically, when used with a heatsink, this module can output one amps of five volts, so 5W total. The regulator is capable of one and a half amps but the rectifying diode is rated for 1 amp, so this is the limit.
-
+None of this is tested, however, and if you build one of these, you do so *at your own responsibility*! 
 
